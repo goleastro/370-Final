@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "UpdatePersonTopic";
+    Layout = (string)Session["layout"];
+}
+
+<h2>Update Favourite Topics</h2>
+    @{
+        Html.RenderAction("AddPersonTopic", "PersonTopic");
+    }
+
+    @{
+        Html.RenderAction("DeletePersonTopic", "PersonTopic");
+    }
+
+
+
